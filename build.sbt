@@ -6,7 +6,7 @@ organization := "pl.codeplay"
 
 version := "0.0.0"
 
-scalaVersion := "2.11.6"
+scalaVersion := "2.11.1"
 
 scalacOptions ++= Seq("-feature", "-deprecation")
 

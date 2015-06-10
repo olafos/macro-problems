@@ -77,13 +77,13 @@ class MacroSpecs extends FunSpec with Matchers {
 
   }
 
-  class SomeClass[R: TypeTag, C: TypeTag] {
-
-    val creator = new MacroCreate[R, C]
-
-    def call(command: C, id: => Id): R = creator.create(command, id)
-  }
-
+//  class SomeClass[R: TypeTag, C: TypeTag] {
+//
+//    val creator = new MacroCreate[R, C]
+//
+//    def call(command: C, id: => Id): R = creator.create(command, id)
+//  }
+//
 //  describe("problem 2") {
 //
 //    it(s"should create record from command - this one causes exception during macro expansion") {
